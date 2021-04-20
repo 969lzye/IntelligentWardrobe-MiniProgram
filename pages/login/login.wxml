@@ -1,0 +1,19 @@
+<view class="titleText">
+  <text>IntelligentWardrobe</text>
+  <text>智能衣橱</text>
+</view>
+<view class="userInfo">
+  <view class="loginInfo">
+    <image src="/images/username.png" class="loginImg"></image>
+    <input type="text" placeholder="请输入手机号" class="phone" bindinput="input_phone"/>
+  </view>
+  <view class="loginInfo">
+    <image src="/images/password.png" class="loginImg"></image>
+    <input type="text" placeholder="请输入密码" password="true" class="password" bindinput="input_password"/>
+  </view>
+
+</view>
+  <button type="primary" bindtap="login" class="btn">登录</button>
+  <button type="primary" bindtap="register" class="btn">注册</button>
+
+

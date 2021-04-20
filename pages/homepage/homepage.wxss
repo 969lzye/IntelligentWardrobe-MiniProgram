@@ -1,0 +1,57 @@
+.temperature{font-size: 150rpx;}
+.Container{display: flex; flex-direction: row;}
+.buttonContainer{display: flex;flex-direction: row;}
+button{width: 10rpx;}
+.scrollView{
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+.navScroll{
+  width: 20%;
+}
+.navItem{
+  display: flex;
+  border-bottom: 1px solid;
+  height: 100rpx;
+  align-items: center;
+  justify-content: center;
+}
+.active{
+  background: red;
+}
+.combinationScroll{
+  border: 1px solid;
+  width: 80%;
+}
+.combinationView{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.combinationItem{
+  width: 240rpx;
+  margin-left: 50rpx;
+  margin-top: 30rpx;
+  height: 300rpx;
+  border: 1px solid;
+}
+.combinationImgItem{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  height: 80%;
+  width: 240rpx;
+
+}
+.combinationImg{
+  width: 120rpx;
+  height: 100rpx;
+}
+.combinationDesc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}

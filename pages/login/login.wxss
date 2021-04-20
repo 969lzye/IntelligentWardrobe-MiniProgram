@@ -1,0 +1,13 @@
+/* pages/login/login.wxss */
+.titleText{
+  text-align: center;
+   font-size:50rpx;
+   color: gold;
+   margin-bottom: 100rpx;
+   margin-top: 100rpx;
+   display: flex;
+   flex-direction: column;
+}
+.loginImg{width: 30px; height: 30px; padding-right: 20px;padding-left: 20px;}
+.loginInfo{flex-direction: row; display: flex; align-items: center;height: 100rpx;margin-bottom: 20rpx; }
+.btn{margin-top: 50rpx;}

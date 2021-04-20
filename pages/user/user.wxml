@@ -1,0 +1,30 @@
+<view class="userInfo">
+  <image src="{{user.profile}}" class="userIcon"></image>
+  <text>{{user.username==null?'username':user.username}}</text>
+  <text>{{user.phone}}</text>
+</view>
+<navigator class="userItem" url="../account/account">
+    <image src="/images/account.png" class="userItemIcon"></image>
+    <text class="userItemText">我的账户</text>
+    <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</navigator>
+<navigator class="userItem">
+  <image src="/images/hide.png" class="userItemIcon"></image>
+  <text class="userItemText">隐藏非单季藏品</text>
+  <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</navigator>
+<navigator class="userItem" url="../satistics/satistics">
+  <image src="/images/statistics.png" class="userItemIcon"></image>
+  <text class="userItemText">衣橱统计</text>
+  <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</navigator>
+<navigator class="userItem">
+  <image src="/images/feedback.png" class="userItemIcon"></image>
+  <text class="userItemText">技术反馈</text>
+  <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</navigator>
+<navigator class="userItem">
+  <image src="/images/about.png" class="userItemIcon"></image>
+  <text class="userItemText">关于智能衣橱</text>
+  <text class="version">1.0.0</text>
+</navigator>

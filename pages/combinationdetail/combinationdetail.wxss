@@ -1,0 +1,71 @@
+.combinationView{
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.combinationImg{
+  padding-left: 35rpx;
+  padding-top: 30rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border: 1px soild;
+}
+.combinationDesc{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  border-bottom: 1px solid;
+  width: 250rpx;
+}
+.saveView{
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+.navScroll{
+  margin-top: 50rpx;
+  height: 100rpx;
+}
+.navView{
+  height: 90rpx;
+  width: 130rpx;
+  display: flex;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.navContainer{
+  display: flex;
+  margin-left: 30rpx;
+  flex-direction: row;
+  border-left: 1px solid;
+}
+.navDesc{
+  width: 100%;
+  margin-top: 20rpx;
+  text-align: center;
+}
+.clothesContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.clothesView{
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.clothesImg{
+  width: 200rpx;
+  height: 200rpx;
+}
+.clothesDesc{
+  width: 100%;
+  margin-top: 10rpx;
+  text-align: center;
+}
+.active{
+  background: red;
+}

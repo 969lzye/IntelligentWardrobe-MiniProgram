@@ -1,0 +1,13 @@
+/* pages/user/user.wxss */
+text{
+  padding-top: 20rpx;
+}
+.userInfo{flex-direction: column; display: flex; text-align: center; background: #6495ed; height: 400rpx;}
+.userIcon{width: 150rpx; height: 150rpx;margin-left: 300rpx; margin-top: 30rpx;border-radius: 50px;}
+.userItem{display: flex; flex-direction: row; border-bottom: 1px solid; align-items: center;height: 150rpx;}
+.userItemIcon{width: 70rpx;height: 70rpx;padding-left: 30rpx;}
+.anglebrackets{width: 70rpx; height: 70rpx;padding-left: 250rpx;}
+.userItemText{width: 300rpx;padding-left: 30rpx;}
+.version{
+  padding-left: 200rpx;
+} 

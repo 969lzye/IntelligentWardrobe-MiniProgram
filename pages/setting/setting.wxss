@@ -1,0 +1,15 @@
+.settingItem{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid;
+  align-items: center;
+  height: 150rpx;
+  width: 100%;
+}
+text{width: 200rpx;}
+.settingItemIcon{width: 70rpx;height: 70rpx;margin-left: 50rpx;padding-right: 30rpx;}
+.anglebrackets{width: 70rpx; height: 70rpx;margin-left: 300rpx;}
+switch{padding-left: 250rpx;width: 70rpx; height: 70rpx;}
+button{
+  margin-top: 50rpx;
+}

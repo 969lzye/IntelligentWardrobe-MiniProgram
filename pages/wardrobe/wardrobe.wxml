@@ -1,0 +1,48 @@
+<view class="Container">
+  <!-- 左边导航栏 -->
+  <scroll-view class="navScroll" scroll-y="true">
+    <view class="navContainer">
+      <view class="nav-item{{currentType==-1?' active':''}}" data-currenttype="-1" bindtap="combinationClick">
+        组合
+      </view>
+      <view class="nav-item{{item.typeid==currentType?' active':''}}" wx:for="{{typeArr}}" wx:key="id" data-currenttype="{{item. typeid}}" bindtap="navClick" bindlongpress="navPress">
+        {{item.t_desc}}
+      </view>
+      <view  class="nav-item addtype" bindtap="addType">
+        +
+      </view>
+    </view>
+   
+  </scroll-view>
+
+  <!-- 右边对应的内容栏 -->
+  <scroll-view class="clothesScroll" scroll-y="true">
+    <view class="clothesContainer">
+      <view class="desc">
+        {{currentDesc}}</view>
+      <view class="typeClothes">
+        <view class="clothesBar-item" wx:for="{{clothesArr}}" bindtap="editclothes" data-currentclothes="{{item.clothesid}}">
+          <image class="clothesImg" src="{{item.imgsrc}}"></image>
+          <text class="clothesDesc">{{item.c_desc}}</text>
+        </view>
+        <view class="uploadClothes" bindtap="addClothes" wx:if="{{currentDesc!='组合'}}">
+          <view class="uploadText">+</view>
+        </view>   
+
+
+        <view class="combination">
+        <view class="combinationItem" wx:for="{{combinationArr}}" bindtap="editcombination" data-currentcombination="{{item.combinationid}}">
+          <view class="CombinationImg">
+            <image class="combinationImgItem" src="{{clothesList.imgsrc}}" wx:for="{{item.clothesList}}" wx:for-item="clothesList"></image>
+          </view>
+          
+          <text class="combinationDesc">{{item.c_desc}}</text>
+        </view>  
+        <view class="uploadcombination" bindtap="addCombination" wx:if="{{currentDesc=='组合'}}">
+          <view class="uploadText">+</view>
+        </view>  
+        </view>
+     </view>
+    </view>  
+  </scroll-view>
+</view>

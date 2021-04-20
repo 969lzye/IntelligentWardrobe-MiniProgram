@@ -1,0 +1,73 @@
+.dirtyClothes{
+  margin-top: 20rpx;
+  margin-bottom: 50rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: wheat;
+}
+.dirtyClothesItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.dirtyClothesImg{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  border: 1px solid;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.typeContainer{
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  align-items: center;
+  width: 100%;
+
+  border-bottom: 1px solid;
+}
+.type{
+  display: flex;
+  flex-direction: column;
+
+  width: 150rpx;
+}
+.active{
+  background: red;
+}
+.typeImg{
+  width: 150rpx;
+  height: 150rpx;
+  border-left: 1px solid;
+}
+.typeDesc{
+  text-align: center;
+
+}
+.clothesDesc{
+ text-align: center;
+}
+.clothesContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500rpx;
+}
+.clothesItem{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  border: 1px solid;
+  width: 200rpx;
+  height: 230rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clothesItemImg{
+  border: 1px solid;
+  width: 200rpx;
+  height: 200rpx;
+}

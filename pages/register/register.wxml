@@ -1,0 +1,16 @@
+<view class="userInfo">
+  <view class="item">
+    <image src="/images/phone.png" class="itemImg"></image>
+    <input type="text" placeholder="请输入手机号" bindinput="getPhone"/>
+  </view>
+  <view class="item">
+    <image src="/images/passwd.png" class="itemImg"></image>
+    <input type="password" placeholder="请输入密码" bindinput="getPassword"/>
+  </view>
+  <view class="item">
+    <image src="/images/passwd.png" class="itemImg"></image>
+    <input type="password" placeholder="再次输入密码" bindinput="checkPassword"/>
+  </view>
+</view>
+<button type="primary" bindtap="register">注册</button>
+<button type="primary" bindtap="login">已有账号？去登录</button>

@@ -1,0 +1,123 @@
+.Container{
+  margin-top: 30rpx;
+  display:flex;
+  flex-direction: row;
+}
+.navContainer{
+  border: 1px solid;
+  display:flex ;
+  flex-direction: column;
+}
+.navScroll{
+  width: 20%;
+}
+.nav-item{
+  text-align: center;
+  font-size: 50rpx;
+  padding-bottom: 30rpx;
+}
+.active{
+  background: #00CCFF;
+}
+.clothesContainer{
+  width: 100%;
+  height: 1000rpx;
+
+  display: flex;
+  flex-direction: column;
+}
+.clothesBar-item{
+  margin-left: 30rpx;
+  padding-right: 2%;
+  margin-bottom: 30rpx;
+  height: 40%;
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+}
+.clothesImg{
+  width: 100%;
+  height: 80%;
+}
+.clothesDesc{
+  margin-top: 5%;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  background: #EB7347;
+}
+.desc{
+  text-align: center;
+  height: 5%;
+  background:#EB7347;
+}
+.typeClothes{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 95%;
+}
+.uploadClothes{
+  display: flex;
+  margin-left: 30rpx;
+  padding-right: 2%;
+  height: 40%;
+  width: 40%;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+}
+.uploadText{
+  padding-left: 25rpx;
+  padding-bottom: 25rpx;
+  font-size: 300rpx;
+  font-weight: 100;
+}
+.addtype{
+  font-size:50rpx;
+}
+.combination{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 95%;
+}
+.combinationItem{
+  margin-left: 30rpx;
+  padding-right: 2%;
+  margin-bottom: 30rpx;
+  height: 300rpx;
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+
+}
+.combinationImg{
+  width: 300rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.combinationImgItem{
+  height: 100rpx;
+  width: 100rpx;
+}
+.combinationDesc{
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  background: #EB7347;
+}
+.uploadcombination{
+  display: flex;
+  margin-left: 30rpx;
+  padding-right: 2%;
+  height: 40%;
+  width: 200rpx;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+}

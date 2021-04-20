@@ -1,0 +1,61 @@
+{
+  "pages":[
+    "pages/addcombination/addcombination",
+    "pages/washclothes/washclothes",
+    "pages/typedetail/typedetail",
+    "pages/combinationdetail/combinationdetail",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/addtype/addtype",
+    "pages/clothesdetail/clothesdetail",
+    "pages/wardrobe/wardrobe",
+    "pages/homepage/homepage",
+    "pages/addclothes/addclothes",
+    "pages/user/user",
+    "pages/satistics/satistics",
+    "pages/username/username",
+    "pages/account/account",
+    "pages/setting/setting",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#f00",
+    "list": [{
+      "pagePath": "pages/homepage/homepage",
+      "text": "首页",
+      "iconPath": "images/homepage.png",
+      "selectedIconPath": "images/homepage-h.png"
+    } , {
+      "pagePath": "pages/wardrobe/wardrobe",
+      "text": "我的衣柜",
+      "iconPath": "images/wardrobe.png",
+      "selectedIconPath": "images/wardrobe-h.png"
+    } , {
+      "pagePath": "pages/user/user",
+      "text": "我",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/user-h.png"
+    } , {
+      "pagePath": "pages/setting/setting",
+      "text": "设置",
+      "iconPath": "images/setting.png",
+      "selectedIconPath": "images/setting-h.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+}
+  
+}

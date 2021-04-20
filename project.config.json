@@ -1,0 +1,149 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.16.0",
+  "appid": "wxde74f5f5bdffdc4f",
+  "projectname": "IntelligentWardrobe",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/addclothes/addclothes",
+          "pathName": "pages/addclothes/addclothes",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/wardrobe/wardrobe",
+          "pathName": "pages/wardrobe/wardrobe",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/clothesdetail/clothesdetail",
+          "pathName": "pages/clothesdetail/clothesdetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/addtype/addtype",
+          "pathName": "pages/addtype/addtype",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/register/register",
+          "pathName": "pages/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/setting/setting",
+          "pathName": "pages/setting/setting",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/user",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/account/account",
+          "pathName": "pages/account/account",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/typedetail/typedetail",
+          "pathName": "pages/typedetail/typedetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/combinationdetail/combinationdetail",
+          "pathName": "pages/combinationdetail/combinationdetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/washclothes/washclothes",
+          "pathName": "pages/washclothes/washclothes",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/addcombination/addcombination",
+          "pathName": "pages/addcombination/addcombination",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homepage/homepage",
+          "pathName": "pages/homepage/homepage",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

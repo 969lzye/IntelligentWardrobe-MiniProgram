@@ -1,0 +1,5 @@
+<input type="text" placeholder="请输入分类名称" placeholder-style="color:coral" bindinput="getTypeDesc"/>
+<view>
+  <image src="{{localbase64}}" bindtap="chooseImg"></image>
+</view>
+<button type="primary" bindtap="addTypeBtn">保存</button>

@@ -1,0 +1,17 @@
+<view>
+  <text class="item">单品总数</text>
+  <text>0</text>
+</view>
+<view>
+  <text class="item">配套总数</text>
+  <text>0</text>
+</view>
+<view>
+  <text class="item">未搭单品</text>
+  <text>0</text>
+</view>
+<view>
+  <text class="item">常用单品</text>
+  <text>0</text>
+</view>
+

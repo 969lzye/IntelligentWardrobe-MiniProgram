@@ -1,0 +1,18 @@
+.userInfo{
+  margin-top: 100rpx;
+}
+.item{
+  display: flex;
+  flex-direction:row ;
+  height: 100rpx;
+  margin-top: 20rpx;
+}
+.itemImg{
+  height: 50rpx;
+  width: 50rpx;
+  padding-left: 50rpx;
+  padding-right: 30rpx;
+}
+button{
+  margin-top: 50rpx;
+}

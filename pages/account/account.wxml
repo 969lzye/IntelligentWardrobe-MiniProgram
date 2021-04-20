@@ -1,0 +1,14 @@
+<view class="userItem" bindtap="getProfile">
+    <text class="userItemText">头像</text>
+    <image src="{{user.profile}}" class="userItemIcon"></image>
+    <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</view>
+<navigator class="userItem" url="../username/username">
+    <text class="userItemText">昵称</text>
+    <text class="username">{{user.username==null?'username':user.username}}</text>
+    <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</navigator>
+<navigator class="userItem">
+    <text class="userItemText">绑定的手机号</text>
+    <text class="phoneNum">{{user.phone}}</text>
+</navigator>

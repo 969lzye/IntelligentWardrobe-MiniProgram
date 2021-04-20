@@ -1,0 +1,28 @@
+<view class="combinationView">
+  <image class="combinationImg" src="{{item.imgsrc}}" wx:for="{{combinationClothesArr}}" data-currentcombinationclothes="{{index}}" bindtap="combinationClothesClick"></image>
+</view>
+<view class="saveView">
+  <input type="text" class="combinationDesc" placeholder="组合名称" bindinput="getDesc"/>
+  <button type="primary" bindtap="addCombination">保存</button>
+</view>
+<scroll-view class="navScroll" scroll-x="true">
+  <view class="navContainer">
+    <view class="navView{{index==currentIndex?' active':''}}" wx:for="{{typeArr}}" data-currentIndex="{{index}}"
+    data-currentType="{{item.typeid}}" bindtap="navClick">
+      <text class="navDesc">{{item.t_desc}}</text>
+    </view>
+  </view>
+</scroll-view>
+
+<scroll-view class="clothesScroll" scroll-x="true">
+  <view class="clothesContainer" >
+    <view class="clothesView" wx:for="{{clothesArr}}" bindtap="clothesClick" data-currentClothes="{{item}}">
+      <image src="{{item.imgsrc}}" class="clothesImg"></image>
+      <text class="clothesDesc">{{item.c_desc}}</text>
+    </view>
+
+    
+  </view>
+  
+</scroll-view>
+

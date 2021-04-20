@@ -1,0 +1,6 @@
+.userItem{display: flex; flex-direction: row; border-bottom: 1px solid; align-items: center;height: 150rpx;}
+.userItemIcon{width: 70rpx;height: 70rpx;margin-left: 300rpx;border-radius: 35px}
+.anglebrackets{width: 70rpx; height: 70rpx;}
+.userItemText{padding-left: 50rpx;width: 300rpx;}
+.phoneNum{margin-left: 100rpx;text-align: center;width: 300rpx;}
+.username{margin-left: 200rpx;width: 200rpx;text-align: right;}

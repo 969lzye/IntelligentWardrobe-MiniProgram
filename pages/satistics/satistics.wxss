@@ -1,0 +1,2 @@
+view{border-bottom: 1px solid; height: 70rpx;}
+.item{padding-left: 50rpx;padding-right: 400rpx;}

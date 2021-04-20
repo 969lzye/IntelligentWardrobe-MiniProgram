@@ -1,0 +1,20 @@
+input{
+  border-bottom: 1px solid black;
+  margin-top: 50rpx;
+  color: coral;
+  margin-left: 50rpx;
+}
+view{
+  width: 400rpx;
+  height: 400rpx;
+  border: 1px solid;
+  margin-left: 180rpx;
+  margin-top: 50rpx;
+}
+image{
+  height: 100%;
+  width: 100%;
+}
+button{
+  margin-top: 50rpx;
+}

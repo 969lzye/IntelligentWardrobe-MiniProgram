@@ -1,0 +1,2 @@
+/* pages/username/username.wxss */
+input{border-bottom: 1px solid;height: 100rpx;margin-top: 50rpx;margin-bottom: 50rpx;margin-left: 50rpx;margin-right: 50rpx;}

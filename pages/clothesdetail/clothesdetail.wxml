@@ -1,0 +1,24 @@
+<view class="clothesContainer">
+  <image src="{{localbase64}}" class="clothesImg" bindtap="chooseImg"></image>
+  <input type="text" placeholder="请输入衣服名称" class="clothesDesc" bindinput="getDesc" value="{{clothesArr[0].c_desc}}"/>
+</view>
+<text>衣服类别（单击选中）</text>
+<scroll-view class="typeBar" scroll-x="true">
+  <view class="typeContainer">
+    <view class="type{{item.typeid==currentIndex?' active':''}}" wx:for="{{typeArr}}" data-current="{{item.typeid}}" bindtap="chooseType">
+      <image src="{{item.imgsrc}}" class="typeImg"></image>
+      <text class="typeDesc">{{item.t_desc}}</text>
+    </view>
+  </view>
+</scroll-view>
+<view class="picker">
+  适用季节:
+  <picker bindchange="seasonPickerChanger" range="{{season}}" value="{{seasonIndex}}">{{currentSeason}}</picker>
+</view>
+<view class="picker">
+  适用场合:
+  <picker bindchange="occasionPickerChanger" range="{{occasion}}" value="{{occasionIndex}}">{{currentOccasion}}</picker>
+</view>
+<button type="primary" class="Btn" bindtap="addBtn">保存</button>
+<button type="warn"  bindtap="deleteBtn">删除</button>
+

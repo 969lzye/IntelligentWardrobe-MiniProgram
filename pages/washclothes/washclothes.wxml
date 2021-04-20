@@ -1,0 +1,33 @@
+<text>未清洗的衣服</text>
+<view class="dirtyClothes">
+  <view class="dirtyClothesItem" wx:for="{{dirtyClothesArr}}" bindtap="dirtyClothesClick" data-clothesid="{{item.clothesid}}">
+    <image src="{{item.imgsrc}}" class="dirtyClothesImg" ></image>
+    <text>{{item.c_desc}}</text>
+  </view>
+  
+</view>
+
+<text>衣服类型</text>
+<scroll-view class="typeBar" scroll-x="true">
+  <view class="typeContainer">
+    <view class="type{{item.typeid==currentType?' active':''}}" wx:for="{{typeArr}}" bindtap="typeClick" data-currentType="{{item.typeid}}">
+      <image src="{{item.imgsrc}}" class="typeImg"></image>
+      <text class="typeDesc">{{item.t_desc}}</text>
+    </view>
+    
+  </view>
+  
+</scroll-view>
+
+
+<scroll-view scroll-y="true">
+  <view class="clothesContainer" >
+    
+    <view class="clothesItem" wx:for="{{clothesArr}}" bindtap="cleanClothesClick" data-clothesid="{{item.clothesid}}">
+      <image src="{{item.imgsrc}}" class="clothesItemImg" ></image>
+    <text class="1">{{item.c_desc}}</text>
+    </view>
+    
+   
+  </view>
+</scroll-view>

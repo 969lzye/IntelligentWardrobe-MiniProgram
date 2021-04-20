@@ -1,0 +1,21 @@
+<navigator class="settingItem">
+    <image src="/images/notice.png" class="settingItemIcon"></image>
+    <text>消息通知</text>
+    <switch checked="ture"></switch>
+</navigator>
+<view class="settingItem">
+    <image src="/images/clean.png" class="settingItemIcon"></image>
+    <text>清理缓存</text>
+    <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</view>
+<navigator class="settingItem">
+    <image src="/images/problem.png" class="settingItemIcon"></image>
+    <text>常见问题</text>
+    <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</navigator>
+<navigator class="settingItem">
+    <image src="/images/evaluate.png" class="settingItemIcon"></image>
+    <text>给我们评价</text>
+    <image src="/images/anglbrackets.png" class="anglebrackets"></image>
+</navigator>
+<button type="warn" bindtap="signOut">退出账号</button>

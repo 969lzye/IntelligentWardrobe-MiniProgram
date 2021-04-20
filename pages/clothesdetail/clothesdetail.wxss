@@ -1,0 +1,53 @@
+.clothesImg{
+  width: 80%;
+  height: 70%;
+  margin: 10% 10% 10% 10%;
+  border: 1px solid;
+}
+.clothesDesc{
+  height: 10%;
+  margin-left: 10%;
+  
+  border-bottom: 1px solid;
+}
+.clothesContainer{
+  width: 50%;
+  height: 450rpx;
+  margin-left: 25%;
+  padding-bottom: 50rpx;
+}
+.typeContainer{
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.type{
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid;
+  width: 150rpx;
+}
+.active{
+  background: red;
+}
+.typeImg{
+  width: 150rpx;
+  height: 150rpx;
+}
+.typeDesc{
+  text-align: center;
+}
+.picker{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-top: 50rpx;
+}
+.Btn{
+  margin-top: 100rpx;
+}

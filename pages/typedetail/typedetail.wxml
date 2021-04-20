@@ -1,0 +1,7 @@
+<input type="text" placeholder="请输入分类名称" placeholder-style="color:coral" bindinput="getTypeDesc" value="{{typeArr.t_desc}}"/>
+<view>
+  <image src="{{localbase64}}" bindtap="chooseImg"></image>
+</view>
+<button type="primary" bindtap="updateTypeBtn">保存</button>
+<button type="primary" bindtap="deleteTypeBtn">删除</button>
+

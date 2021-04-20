@@ -1,0 +1,2 @@
+<input type="text" placeholder="请输入新用户名" bindinput="getUsername" value="{{user.username==null?'username':user.username}}"/>
+<button type="primary" bindtap="updateUser">保存</button>

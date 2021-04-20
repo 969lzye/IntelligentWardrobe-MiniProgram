@@ -1,0 +1,32 @@
+
+  <view class="weatherContainer">
+    <text class="temperature">{{weather.temperature.data}}</text>°C
+    <text class="city">{{weather.city.data}}</text>-
+    <text class="weather">{{weather.weather.data}}</text>
+  </view>
+<view class="buttonContainer">
+    <button type="primary" bindtap="gotoAdd">存</button>
+    <button type="primary" bindtap="washClothes">洗</button>
+  </view>
+  <view class="scrollView">
+    <scroll-view scroll-y="true" class="navScroll">
+    <view class="navView" >
+      <view class="navItem{{index==currentIndex?' active':' '}}" wx:for="{{occasion}}" data-currentIndex="{{index}}" bindtap="navClick">
+        {{item}}
+        </view>
+    </view>
+  </scroll-view>
+
+  <scroll-view scroll-y="true" class="combinationScroll">
+    <view class="combinationView">
+      <view class="combinationItem" wx:for="{{combinationArr}}">
+        <view class="combinationImgItem" >
+          <image class="combinationImg" wx:for="{{item.clothesList}}" src="{{item.imgsrc}}"></image>
+        </view>
+        <view class="combinationDesc">{{item.c_desc}}</view>
+      </view>
+      
+    </view>
+  </scroll-view>
+  </view>
+  
